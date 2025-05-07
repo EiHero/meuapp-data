@@ -16,15 +16,6 @@
     "preco": 120.50,
     "saida": "20:00",
     "chegada": "08:00"
-  },
-  {
-    "origem": "Santarém",
-    "destino": "Belém",
-    "data": "2025-05-16",
-    "nome": "N/V Amazonas",
-    "preco": 95.00,
-    "saida": "07:00",
-    "chegada": "19:00"
   }
-  /* …mais rotas… */
+  /* sem vírgula extra aqui! */
 ]
