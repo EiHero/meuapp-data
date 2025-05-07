@@ -1,3 +1,30 @@
-{
-  "mensagem": "Olá, Nethor! Sua mensagem está carregada do teste app viagens prainha."
-}
+[
+  {
+    "origem": "Belém",
+    "destino": "Santarém",
+    "data": "2025-05-15",
+    "nome": "N/V Bartolomeu",
+    "preco": 100.00,
+    "saida": "18:00",
+    "chegada": "06:00"
+  },
+  {
+    "origem": "Belém",
+    "destino": "Santarém",
+    "data": "2025-05-15",
+    "nome": "N/V Almirante",
+    "preco": 120.50,
+    "saida": "20:00",
+    "chegada": "08:00"
+  },
+  {
+    "origem": "Santarém",
+    "destino": "Belém",
+    "data": "2025-05-16",
+    "nome": "N/V Amazonas",
+    "preco": 95.00,
+    "saida": "07:00",
+    "chegada": "19:00"
+  }
+  /* …mais rotas… */
+]
