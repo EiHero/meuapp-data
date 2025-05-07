@@ -1,29 +1,54 @@
-[
-  {
-    "origem": "Belém",
-    "destino": "Santarém",
-    "data": "2025-05-15",
-    "nome": "N/V Bartolomeu",
-    "preco": 100.00,
-    "saida": "18:00",
-    "chegada": "06:00"
-  },
-  {
-    "origem": "Belém",
-    "destino": "Santarém",
-    "data": "2025-05-15",
-    "nome": "N/V Almirante",
-    "preco": 120.50,
-    "saida": "20:00",
-    "chegada": "08:00"
-  },
-  {
-    "origem": "Santarém",
-    "destino": "Belém",
-    "data": "2025-05-16",
-    "nome": "N/V Amazonas",
-    "preco": 95.00,
-    "saida": "07:00",
-    "chegada": "19:00"
-  }
-]
+{
+  "rotas": [
+    {
+      "rota": "PRAINHA-PA - SANTARÉM-PA",
+      "embarcacoes": [
+        {
+          "nome": "ANA BEATRIZ ÇÕL",
+          "preco": 100.00,
+          "saida": "18:00",
+          "chegada": "06:00",
+          "dias": ["DOM", "QUA", "SAB"]
+        },
+        {
+          "nome": "BARTOLOMEU",
+          "preco": 100.00,
+          "saida": "18:00",
+          "chegada": "06:00",
+          "dias": ["SEG", "QUI"]
+        }
+      ]
+    },
+    {
+      "rota": "SANTARÉM-PA - PRAINHA-PA",
+      "embarcacoes": [
+        {
+          "nome": "BALSA MARIA",
+          "preco": 100.00,
+          "saida": "18:00",
+          "chegada": "06:00",
+          "dias": ["DOM", "TER", "QUI", "SAB"]
+        }
+      ]
+    },
+    {
+      "rota": "SANTARÉM-PA - MONTE ALEGRE",
+      "embarcacoes": [
+        {
+          "nome": "ANA BEATRIZ ÇÕL",
+          "preco": 100.00,
+          "saida": "18:00",
+          "chegada": "06:00",
+          "dias": ["DOM"]
+        },
+        {
+          "nome": "BALSA MARIA",
+          "preco": 100.00,
+          "saida": "18:00",
+          "chegada": "06:00",
+          "dias": ["SEG", "QUI", "SEX"]
+        }
+      ]
+    }
+  ]
+}
